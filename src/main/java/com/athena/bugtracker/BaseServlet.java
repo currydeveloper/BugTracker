@@ -14,6 +14,7 @@ public class BaseServlet extends HttpServlet {
     private static final  String username="test";
    private static final  String password="test";
 //TODO https://medium.com/@kasunpdh/session-management-in-java-using-servlet-filters-and-cookies-7c536b40448f
+ //TODO   https://stackoverflow.com/questions/1026846/how-to-redirect-to-login-page-when-session-is-expired-in-java-web-application/32627461#32627461
    @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String reqUsername=request.getParameter("username");
